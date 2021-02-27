@@ -22,6 +22,7 @@ public class ExercicioUmJava {
 		System.out.println("Digite o terceiro");
 		number3 = ler.nextInt();
 		ler.close();
+		
 		if((number1 > number2 ) && (number1 > number3)){
 		System.out.printf("O Primeiro Digitado é o  maior %d :", number1);
 		
@@ -30,7 +31,7 @@ public class ExercicioUmJava {
 			System.out.printf(" O segundo digitado é o maior %d  :", number2);
 			
 			
-		}else/* if(((number3 > number1 ) && (number3 > number2)))*/{
+		}else{
 			System.out.printf(" O terceiro Digitado é o maior %d :", number3);
 	
 		}
