@@ -1,13 +1,16 @@
 algoritmo "semnome"
 var
-contador: inteiro
+   N, S: inteiro
+   resp: caracter
 inicio
-contador <- 0
-enquanto(contador<= 10)faca
-
-       escreval(contador)
-       contador <- contador+1
-      
-      FimEnquanto
+ S<-0
+ repita
+       Escreva("Digite o Valor:=====> ")
+       leia(N)
+       S<-S+N
+       Escreva(" Quer continuar: S/N ")
+       resp
+ ate(resp = "N")
+ escreva("A Soma é :", S)
 
 fimalgoritmo
