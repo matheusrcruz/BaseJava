@@ -1,5 +1,5 @@
 package Gambiarra;
-	
+	/*Test para criar um limpador de console em para java :)*/
 	//import java.util.Scanner;
 		
 	//XGH ou POG
@@ -29,7 +29,7 @@ package Gambiarra;
 
 	 /*   if (idade <=9)
 	    {
-	    System.out.println("infelizmente você é muito novo!\n ");
+	    System.out.println("infelizmente vocÃª Ã© muito novo!\n ");
 	    }
 	    else if (idade <=14)
 	    {
