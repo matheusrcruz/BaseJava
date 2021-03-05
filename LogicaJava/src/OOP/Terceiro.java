@@ -1,4 +1,4 @@
-package OOP;
+	package OOP;
 
 public class Terceiro extends Funcionario {
 	private double adicional;
