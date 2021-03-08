@@ -9,11 +9,7 @@ public class  ContaEstudante extends Conta{
 	
 	private double limiteEstudantil = 5000.00; //ESTUDANTE
 	
-	
-	
-	
-	Scanner leia = new Scanner(System.in);
-	double valor =0; //SUPER
+	private double valor =0; //SUPER momento da transação
 	
 	//CONSTRUTOR - VOU PERGUNTAR ISSO PARA O CLIENTE NA MINHA MAIN!!!
 	public ContaEstudante(String nomeCliente, String cpf, boolean ativa) {
@@ -54,7 +50,7 @@ public class  ContaEstudante extends Conta{
 	@Override
 	public void credito(double credito) { //ESTOU COLOCANDO DINHEIRO NA CONTA
 		
-		if(credito > 0) {
+		if(credito > 0) {//teriamos que repassar esse metodo para as outras calasses
 			saldo = saldo + credito; //FORMULA PARA ADD DINHEIRO NO SALDO
 			System.out.printf("O valor R$ %.2f foi inserido em sua conta!\n", credito);
 		}
@@ -67,6 +63,7 @@ public class  ContaEstudante extends Conta{
 			System.out.println("Impossivel completar a transação! Tente outro valor.");
 		}
 	}
+	@Override
 	public void debito(double valor) {
 		int contador=0;
 		
@@ -79,7 +76,7 @@ public class  ContaEstudante extends Conta{
 			
 		}
 		if (valor > getSaldo() && valor<=limiteEstudantil+getSaldo()) {
-			
+			Scanner leia = new Scanner(System.in);
 			System.out.println("Você não tem saldo suficiente para realizar a operação!");
 			System.out.println("Deseja utilizar o empréstimo Estudantil? ");
 			System.out.println("Digite 1 para SIM e qualquer tecla para CANCELAR a operação!");

@@ -4,8 +4,8 @@ public class ContaEspecial extends Conta {
 
 	// Victor França
 
-		double limite = 1000;
-		double valor = 0;
+		private double limite = 1000;
+		private double valor = 0;
 		
 		// CONSTRUTOR
 		public ContaEspecial (String nomeCliente, String cpf) {

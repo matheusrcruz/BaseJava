@@ -146,13 +146,12 @@ if (tipoConta == '2') { //ALTERAÇÃO CONTA CORRENTE COMEÇA AQUI
 					char opcaotalao = leia.next().charAt(0);
 					
 					if (opcaotalao == '1') {
-						 int talaoquant = 3;
+						
 						 
-						System.out.printf("Você possuí %d talões disponíveis, quanto(s) deseja retirar?", talaoquant);
+						System.out.print("Você possuí talões disponíveis, quanto(s) deseja retirar?");
 						int talao = leia.nextInt();
-						corrente.setPedirTalao(talao);
-						talaoquant = talaoquant - talao;
-						System.out.printf("Solicitações efetuada com sucesso! Você possuí agora %d talões disponíveis.\n", talaoquant);
+						corrente.pedirTalao(talao);
+						
 						
 					}
 					else {

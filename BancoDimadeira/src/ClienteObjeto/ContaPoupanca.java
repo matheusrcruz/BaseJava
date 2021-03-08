@@ -9,8 +9,8 @@ package ClienteObjeto;
 	        private int mesAtualPoupanca;
 	        private int diaAniversario;
 	        private int mesAniversario;
-	        private  double valor=0;
-	        Scanner leia = new Scanner (System.in);
+	        private  double valor=0; // valor é mesma coisa que momento da transacao 
+	        
 
 	        //construtores
 	        public ContaPoupanca (String nomeCliente, String cpf) {
@@ -79,6 +79,7 @@ package ClienteObjeto;
 	        public void credito(double valor) {
 				
 				if (valor>0) {
+					Scanner leia = new Scanner (System.in);
 					
 					System.out.println("Informe o dia atual: ");
 					int diaAtualPoupanca = leia.nextInt();

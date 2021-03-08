@@ -10,7 +10,7 @@ public class Conta {
 	private String cpf;
 	protected double saldo=0;
 	private boolean ativa;
-	private Random aleatorio = new Random();
+	
 	
 	
 	//Constructor
@@ -43,6 +43,7 @@ public class Conta {
 	//ENCAPSULAMENTO
 	
 	public int getNumero() {
+		Random aleatorio = new Random();
 		numero = aleatorio.nextInt(1000);
 		return numero ;
 	}
