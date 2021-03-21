@@ -1,9 +1,11 @@
 # turma18G
 <b>Estudos de Java</b> 
 
-Que inclui os tipos primitivos(Variáveis e seus respectivos tipo,int,bool,char ...);
-tomadas de decisões(if,else ...),laços de repetição(while,for, doWhile) 
-Entre outros.
+
+![Java](https://user-images.githubusercontent.com/31409846/111908952-f568ff00-8a39-11eb-87d8-418fa9ca5f99.png)
+
+Veremos nesse repositório, Tipos primitivos(Variáveis e seus respectivos tipos: int, double,bool,char...);
+estruturas condicionais (if,else ...),laços de repetição(while,for, doWhile)Entre outros.
 Além de orientação a Objetos OOP: Classes,Interfaces,Heranças,polimorfismo, encapsulamento, Override.
 E um projeto Banco que engloba esses aspectos de POO.
 
