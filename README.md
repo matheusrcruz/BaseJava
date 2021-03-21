@@ -9,13 +9,12 @@ estruturas condicionais (if,else ...),laços de repetição(while,for, doWhile)E
 Além de orientação a Objetos OOP: Classes,Interfaces,Heranças,polimorfismo, encapsulamento, Override.
 E um projeto Banco que engloba esses aspectos de POO.
 
-<b>Bem para visualizar o código você tem que ter um ambiente java em sua maquina.</b>
+<b>Para visualizar os algoritmos, você tem que ter um ambiente java em sua maquina.</b>
 
-<b>No caso estou usando a versão 14x do JDk e na instalação do eclipse, coloque para dev Java EE</b>
-<ul>IDE(Ambiente de desenvolvimento integrado) para executar os códigos:
-Ambiente de execução:</ul>
-<ul>JDK(https://www.oracle.com/br/java/technologies/javase/jdk14-archive-downloads.html);
-Eclipse(https://www.eclipse.org/downloads/). Notas a versão é a 14, mas sempre tenha em mente para trabalhar com no mínimo a versão 8 do java, instale o JDK antes da IDE eclipse.</ul>
+<i>No caso estou usando a versão 14x do JDk e na instalação do eclipse, coloque para dev Java EE</i>
+
+<ul>JDK(https://www.oracle.com/br/java/technologies/javase/jdk14-archive-downloads.html) e
+Eclipse(https://www.eclipse.org/downloads/). tenha em mente para trabalhar com no mínimo a versão 8 do java, instale o JDK antes da IDE eclipse.</ul>
 
 
 
