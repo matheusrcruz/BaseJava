@@ -15,5 +15,9 @@ E um projeto Banco que engloba esses aspectos de POO.
 Ambiente de execução:</ul>
 <ul>JDK(https://www.oracle.com/br/java/technologies/javase/jdk14-archive-downloads.html);
 Eclipse(https://www.eclipse.org/downloads/). Notas a versão é a 14, mas sempre tenha em mente para trabalhar com no mínimo a versão 8 do java, instale o JDK antes da IDE eclipse.</ul>
+
+<b>No caso estou usando a versão 14x do JDk</b>
+<b>Nota na instalação do eclipse coloque para dev Java EE</b>
+
 <b>Caso saiba desenvolver:</b>
 Simplesmente importe para seu ambiente de desenvolvimento favorito IntelliJ, NetBeans etc ... 
