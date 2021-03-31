@@ -1,4 +1,4 @@
-package TraducaoPtgParaJava;
+package LacosDeRepetição;
 
 import java.util.Scanner;
 
