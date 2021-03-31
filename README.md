@@ -10,9 +10,9 @@ Além de orientação a Objetos OOP: Classes,Interfaces,Heranças,polimorfismo, 
 E um projeto Banco que engloba esses aspectos de POO.
 
 # Para visualizar os algoritmos, você tem que ter um ambiente java em sua maquina.
-<i>No caso estou usando a versão 14x do JDk</i>
- ![image](https://user-images.githubusercontent.com/31409846/113209059-f0315e80-9248-11eb-9dd0-de1fa75837da.png)
- <i> Na instalação do eclipse, coloque para dev Java EE</i>
+<i>No caso estou usando a versão 14x do JDk Na instalação do eclipse, coloque para dev Java EE</i>
+![image](https://user-images.githubusercontent.com/31409846/113209059-f0315e80-9248-11eb-9dd0-de1fa75837da.png)
+
 ![image](https://user-images.githubusercontent.com/31409846/113208789-9761c600-9248-11eb-8c3f-4271bd8d53c3.png)
 
 
