@@ -3,7 +3,7 @@
 
 
 
-package ARRAYS;
+package Array;
 
 public class DesafioMatriz {
 	public static void main(String[]args) {

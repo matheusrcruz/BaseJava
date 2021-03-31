@@ -1,4 +1,4 @@
-package ARRAYS;
+package Array;
 //Djavan
 //não te esquecei um dia, nem um dia: JAVA
 //o elo com todas as cores pra enfrentar amores gris: ORIENTAÇÃO A OBJETOS NA VEIA!!!
