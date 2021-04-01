@@ -1,8 +1,6 @@
-package ExRevisao;
+package Revisao;
 
 import java.util.Scanner;
-
-import Revisao.Pessoa;
 
  public class TestRevisao {
 	 
